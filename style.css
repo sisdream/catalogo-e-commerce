@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 8px 0;
+    text-align: center;
+}
+
+.square{
+    height: 360px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+}
+
+.square.uno{
+    background-image: url(img/pd1.jpg); 
+}
+
+.square.due{
+    background-image: url(img/pd2.jpg);
+}
+
+.square.tre{
+    background-image: url(img/pd3.jpg);
+}
+
+.sconto{
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sconto.green{
+    background-color: green;
+}
+
+.sconto.red{
+    background-color: red;
+}
+
+.heart{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
